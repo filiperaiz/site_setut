@@ -818,12 +818,12 @@
     }
     
     .dialog .btn-close {
-        color: #aaa;
+        color: #000;
         cursor: pointer;
         font-size: 3rem;
         position: absolute;
         top: 0;
-        right: 5px;
+        right: 15px;
         text-decoration: none;
     }
     
@@ -910,7 +910,7 @@
         width: 100%;
         background-color: #00914b;
         color: #fff;
-        font-size: 25px;
+        font-size: 21px;
         padding: 20px;
         margin-bottom: 30px;
     }
@@ -919,12 +919,31 @@
         width: 100%;
         background-color: #f07b2c;
         color: #fff;
-        font-size: 25px;
-        padding: 20px;
     }
     
     .button-dialog label i {
         margin-bottom: 10px;
-        font-size: 20px;
+        font-size: 40px;
         display: block;
+    }
+    
+    @media screen and (max-width: 767px) {
+        .news-list .category-home .thumb {
+            float: none;
+            display: block;
+        }
+        .news-list .category-home .thumb img {
+            margin-bottom: 0;
+            margin-right: 0;
+            padding: 0;
+            display: block;
+            max-width: 300px;
+            width: 100%;
+            height: auto;
+            margin: 0 auto 20px;
+        }
+        .navbar-toggle {
+            margin-top: 18px;
+            margin-right: 0px;
+        }
     }
